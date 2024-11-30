@@ -1,0 +1,149 @@
+.avatar img{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    padding: 5px;
+    background-color: var(--blue);
+
+}
+.borda {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    left: 60px;
+    top: -60px;
+    margin: auto;
+}
+
+header{
+  background-image: url(../assets/Background_Intro.png); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 120px 20px; 
+    text-align: center; 
+    
+}
+
+header span {
+    color: var(--blue)
+}
+
+
+h4 {
+  font: var(--subtitle);
+  color: var(--gray-500);
+  text-align: center;
+}
+
+h1{
+  font: var(--title-lg);
+  color: var(--gray-600);
+  text-align: center;
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-400);
+  text-align: center;
+  
+}
+
+#cards h4 {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+#cards h2 {
+  font: var(--title-md);
+  color: var(--gray-600);
+  text-align: center
+}
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#linguagens-lista{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-block: 80px;
+ }   
+
+ul li {
+    display: flex;
+    align-items: center;
+    max-width: 138px;
+    height: 40px;
+    font: var(--text-md);
+    border-radius: 50px;
+    padding: 12px;
+    gap: 8px;
+    background-color: var(--gray-300);
+    transition: all 0.3s ease;
+    text-align: center;
+    color: var(--gray-dark);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+   }
+
+li:hover {
+  background-color: black;
+  color: white;
+  opacity: 1;
+  transform: translateY(-3px); 
+  cursor: pointer;
+}
+
+
+   .github img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(4651%) hue-rotate(82deg) brightness(103%) contrast(104%)
+  }
+  
+  .html img {
+    filter: brightness(0) saturate(100%) invert(53%) sepia(9%) saturate(3351%) hue-rotate(307deg) brightness(94%) contrast(88%)
+  }
+  
+  .css img {
+    filter: brightness(0) saturate(100%) invert(62%) sepia(99%) saturate(2619%) hue-rotate(180deg) brightness(89%) contrast(91%)
+  }
+  
+  .javascript img {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(43%) saturate(456%) hue-rotate(2deg) brightness(99%) contrast(97%);
+  }
+  
+  .react img {
+    filter: brightness(0) saturate(100%) invert(49%) sepia(88%) saturate(346%) hue-rotate(162deg) brightness(92%) contrast(105%);
+  }
+  
+  .nodejs img {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(64%) saturate(364%) hue-rotate(49deg) brightness(101%) contrast(87%);
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .btn img {
+    width: 30px;
+    height: 30px;
+    animation: bounce 2s infinite;
+}
+  
+
+  @keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
