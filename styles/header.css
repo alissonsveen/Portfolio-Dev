@@ -1,7 +1,7 @@
 .avatar img{
     display: flex;
     margin: auto;
-    width: 200px;
+    width: 200px; 
     height: 200px;
     border-radius: 200px;
     padding: 5px;
@@ -32,36 +32,22 @@ header span {
 }
 
 
-h4 {
+#hlw{
   font: var(--subtitle);
   color: var(--gray-500);
   text-align: center;
 }
 
-h1{
+header h1{
   font: var(--title-lg);
   color: var(--gray-600);
   text-align: center;
 }
-
-p {
+header p {
   font: var(--text-sm);
   color: var(--gray-400);
   text-align: center;
-  
 }
-
-#cards h4 {
-  font: var(--subtitle);
-  color: var(--red);
-}
-
-#cards h2 {
-  font: var(--title-md);
-  color: var(--gray-600);
-  text-align: center
-}
-
 
 figure {
     display: flex;
