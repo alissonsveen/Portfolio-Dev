@@ -18,9 +18,6 @@
     --gray-400: #878EA1;
     --gray-500: #C0C4CE;
     --gray-600: #E2E4E9;
-    --bg:#1a1c20;
-
-
     --font-asap: "Asap", sans-serif;
     --font-inconsolata: "Inconsolata", monospace; 
     --font-maven-pro: "Maven Pro", sans-serif;
@@ -42,7 +39,7 @@
 
 body{
     width: 100%;
-    background-color: var(--bg);
-
+    background-color: var(--gray-200);
+    overflow-x: hidden;
 }
 
