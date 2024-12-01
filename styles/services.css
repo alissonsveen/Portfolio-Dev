@@ -1,0 +1,115 @@
+.services {
+    background-color: var(--gray-100);
+    display: flex;
+    flex-direction: column;
+    width: 1366;
+    height: 480;
+    gap: 20px;
+    padding-top: 88px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+}
+.service-cards {
+    display: flex;
+    gap: 24px;
+    padding-top: 56px;
+    justify-content: center;
+}
+
+#texts  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+#texts h2 {
+    display: flex;
+    text-align: center;
+    gap: 8px;
+    justify-content: center;
+    font: var(--title-md);
+    color: var(--gray-600);
+}
+
+#texts h4 {
+    gap: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font: var(--subtitle);
+    text-align: center;
+    color: var(--red);
+}
+
+.services h3 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+.services p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+}
+
+#cardweb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 280px;
+    height: 155px;
+    border: 2px solid #16181D;
+    border-radius: 12px;
+    padding: 10px;
+    gap: 20px;
+}
+
+#cardapi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 280px;
+    height: 155px;
+    border: 2px solid #16181D;
+    border-radius: 12px;
+    padding: 20px;
+    gap: 20px;
+}
+
+#cardev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 280px;
+    height: 155px;
+    border: 2px solid #16181D;
+    border-radius: 12px;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+#cardweb:hover  {
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.3);
+    transform: scale(1);
+}
+
+#cardapi:hover {
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.3);
+    transform: scale(1);
+}
+
+#cardev:hover {
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.3);
+    transform: scale(1);
+}
+
+
+
