@@ -1,3 +1,84 @@
 .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 144px;
     
+}
+
+.cards section {
+    position: relative;
+    box-sizing: border-box;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.cards section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+
+  .cards a {
+    text-decoration: none;
+    font: var(--text-sm);
+    color: var(--gray-500);
+  }
+
+.cards section:hover {
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.3);
+     transform: scale(1.05);
+  }
+header h4 {
+    font: var(--subtitle);
+    color: var(--red);
+    margin: 0;
+}
+header h2 {
+    font: var(--title-md);
+    color: var(--gray-600);
+    margin: 0;
+}
+
+#jobs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    margin-bottom: -200px;
+  }
+
+.cards h3 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+
+.cards p  {
+    font: var(--text-sm);
+    color: var(--gray-500);
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+    z-index: -1;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+section:hover::before {
+    opacity: 1; 
+    transform: scale(1);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
 }
